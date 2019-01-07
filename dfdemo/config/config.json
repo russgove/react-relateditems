@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dfdemo-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/dfdemo/DfdemoCommandSet.js",
+          "manifest": "./src/extensions/dfdemo/DfdemoCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DfdemoCommandSetStrings": "lib/extensions/dfdemo/loc/{locale}.js"
+  }
+}

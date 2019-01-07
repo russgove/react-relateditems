@@ -1,0 +1,21 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dfdemo-client-side-solution",
+    "id": "6942ddc9-403a-4247-b85c-651ef9821225",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests":[
+      {
+        "resource":"FunctionApp20180516060220DurableDemo",
+        "scope": "user_impersonation"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dfdemo.sppkg"
+  }
+  
+
+}
